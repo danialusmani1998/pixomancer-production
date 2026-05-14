@@ -59,7 +59,7 @@ export function SiteHeader() {
             height={64}
             style={{ background: "transparent" }}
           />
-          <span className="font-display text-2xl font-bold tracking-tighter text-teal sm:text-3xl lg:text-4xl">
+          <span className="font-display text-2xl font-bold tracking-tighter text-slate-deep transition-colors group-hover:text-teal sm:text-3xl lg:text-4xl">
             Pixomancer
           </span>
         </Link>
