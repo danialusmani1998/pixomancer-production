@@ -7,7 +7,7 @@ const EMAIL = "sales@pixomancer.com";
 
 const socials = [
   { id: "btn-contact-social-linkedin", label: "LinkedIn", href: "https://www.linkedin.com/company/pixomancer/?utm_source=website&utm_medium=contact&utm_campaign=linkedin-page-visit" },
-  { id: "btn-contact-social-instagram", label: "Instagram", href: "https://www.instagram.com/pixomancer/?utm_source=website&utm_medium=contact&utm_campaign=instagram-page-visit" },
+  { id: "btn-contact-social-instagram", label: "Instagram", href: "https://www.instagram.com/pixomancerofficial/?utm_source=website&utm_medium=footer&utm_campaign=instagram-page-visit" },
   { id: "btn-contact-social-facebook", label: "Facebook", href: "https://www.facebook.com/pixomancer/?utm_source=website&utm_medium=contact&utm_campaign=facebook-page-visit" },
   { id: "btn-contact-social-pinterest", label: "Pinterest", href: "https://www.pinterest.com/pixomancer/?utm_source=website&utm_medium=contact&utm_campaign=pinterest-page-visit" },
 ];
