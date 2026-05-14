@@ -55,8 +55,8 @@ export function SiteHeader() {
             src={logo}
             alt="Pixomancer — Creative & Technology Solutions"
             className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02] sm:h-12"
-            width={180}
-            height={48}
+            width={540}
+            height={144}
             style={{ background: "transparent" }}
           />
         </Link>
