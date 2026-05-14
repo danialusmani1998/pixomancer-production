@@ -48,20 +48,22 @@ export function SiteHeader() {
         scrolled ? "border-cloud shadow-[0_1px_8px_0_rgba(0,0,0,0.06)]" : "border-transparent"
       }`}
     >
-      <div className="container-x flex h-24 items-center justify-between sm:h-28">
-        {/* Logo */}
-        
+      <div className="container-x flex h-20 items-center justify-between sm:h-24">
+        {/* Logo & Brand Name */}
         <Link to="/" aria-label="Pixomancer — Home" className="flex items-center gap-3 group shrink-0">
           <img
             src={logo}
-            alt="Pixomancer"
+            alt="Pixomancer — Creative & Technology Solutions"
             className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02] sm:h-16"
+            width={240}
+            height={64}
+            style={{ background: "transparent" }}
           />
           <span className="font-display text-2xl font-bold tracking-tighter text-teal sm:text-3xl lg:text-4xl">
             Pixomancer
           </span>
         </Link>
-        
+
         {/* Desktop nav */}
         <nav aria-label="Main navigation" className="hidden items-center gap-6 lg:flex xl:gap-8">
           {nav.map((n) => {
@@ -83,7 +85,7 @@ export function SiteHeader() {
                   </Link>
 
                   {/* Mega Dropdown */}
-                  "nav-dropdown bg-white border border-cloud shadow-xl" role="menu" aria-label="Services menu">
+                  <div className="nav-dropdown bg-white border border-cloud shadow-xl" role="menu" aria-label="Services menu">
                     <div className="p-2">
                       <div className="grid grid-cols-2 gap-1">
                         {serviceLinks.map((s) => (
