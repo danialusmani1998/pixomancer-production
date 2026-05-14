@@ -50,18 +50,18 @@ export function SiteHeader() {
     >
       <div className="container-x flex h-24 items-center justify-between sm:h-28">
         {/* Logo */}
-        <Link to="/" aria-label="Pixomancer — Home" className="flex items-center group shrink-0">
-          <img
-            src={logo}
-            alt="Pixomancer — Creative & Technology Solutions"
-            className="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02] sm:h-20"
-            width={540}
-            height={144}
-            style={{ background: "transparent" }}
-          />
-
-        </Link>
-
+        
+      <Link to="/" aria-label="Pixomancer — Home" className="flex items-center gap-3 group shrink-0">
+        <img
+          src={logo}
+          alt="Pixomancer"
+          className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02] sm:h-16"
+        />
+        <span className="font-display text-2xl font-bold tracking-tighter text-teal sm:text-3xl lg:text-4xl">
+          Pixomancer
+        </span>
+      </Link>
+        
         {/* Desktop nav */}
         <nav aria-label="Main navigation" className="hidden items-center gap-6 lg:flex xl:gap-8">
           {nav.map((n) => {
