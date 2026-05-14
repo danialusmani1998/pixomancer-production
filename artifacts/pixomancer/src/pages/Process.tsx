@@ -125,13 +125,13 @@ export default function ProcessPage() {
           <Link
             to="/contact"
             id="btn-process-hero-begin"
-            name="Begin Your Journey"
+            name="Start Your Project"
             className="btn-primary gtm-cta mt-8 inline-flex text-sm sm:text-base"
             data-gtm-category="CTA"
             data-gtm-action="Click"
-            data-gtm-label="Process Hero — Begin Journey"
+            data-gtm-label="Process Hero — Start Project"
           >
-            Begin Your Journey →
+            Start Your Project →
           </Link>
         </div>
       </section>
@@ -178,13 +178,13 @@ export default function ProcessPage() {
                   <Link
                     to="/contact"
                     id={`btn-process-step-${steps[activeStep].n}`}
-                    name={`Start Step ${steps[activeStep].n} — ${steps[activeStep].label}`}
+                    name={`Start Step ${steps[activeStep].n}`}
                     className="btn-primary gtm-cta w-full justify-center text-sm sm:text-base"
                     data-gtm-category="CTA"
                     data-gtm-action="Click"
                     data-gtm-label={`Process Step ${steps[activeStep].n} — Start`}
                   >
-                    Start Step {steps[activeStep].n} Today →
+                    Start This Phase Now →
                   </Link>
                 </div>
               </div>
@@ -220,7 +220,7 @@ export default function ProcessPage() {
               data-gtm-action="Click"
               data-gtm-label="Process — Book Strategy Call"
             >
-              Book a Strategy Call →
+              Book a Free Strategy Call →
             </Link>
           </div>
         </div>
@@ -257,9 +257,9 @@ export default function ProcessPage() {
       </section>
 
       <FinalCta
-        title="Ready to Build Something Inevitable?"
-        cta="Book Your Free Strategy Call"
-        sub="No pitch decks. No sales bots. Just a senior strategist who gets it."
+        title="Ready to Start Your Transformation?"
+        cta="Book Your Strategy Call"
+        sub="No sales bots. Just a real conversation with a strategist."
       />
     </main>
   );

@@ -59,7 +59,7 @@ const services = [
 
 export default function HomePage() {
   usePageSEO({
-    title: "Pixomancer — Unleash Your Brand's Full Digital Potential",
+    title: "Pixomancer — Scale Your Brand's Digital Impact",
     description: "Full-stack digital agency delivering web engineering, AI automation, UI/UX design, e-commerce, branding, and performance marketing. 50+ brands launched. 98% client retention.",
     canonical: "https://pixomancer.com/",
   });
@@ -72,7 +72,7 @@ export default function HomePage() {
       <ServicesSection />
       <CtaBand
         text="Don't see exactly what you need? We build custom stacks tailored to your unique vision."
-        cta="Talk to a Strategist Now"
+        cta="Talk to a Specialist Now"
       />
       <ProcessSection />
       <CaseStudies />
@@ -82,7 +82,7 @@ export default function HomePage() {
       <FinalCta
         title="Stop Being Invisible. Start Being Inevitable."
         cta="Book Your Free Strategy Call"
-        sub="Directs to our secure contact form. No spam. Your privacy is paramount."
+        sub="Connect with a senior strategist. No spam. Your privacy is paramount."
       />
     </>
   );
@@ -103,9 +103,9 @@ function Hero() {
             <span className="text-xs font-bold uppercase tracking-widest text-teal">Crafting Brands Beyond Pixels</span>
           </div>
           <h1 className={`mt-5 font-display text-4xl font-bold leading-[1.02] text-slate-deep sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-7xl anim-fade-up delay-100 ${inView ? "in-view" : ""}`}>
-            Unleash Your Brand's Full{" "}
+            Scale Your Brand's Full{" "}
             <span className="relative inline-block">
-              <span className="text-teal">Digital Potential.</span>
+              <span className="text-teal">Digital Impact.</span>
               <span className="absolute -bottom-1 left-0 h-0.5 w-full bg-teal/30" />
             </span>
           </h1>
@@ -116,13 +116,13 @@ function Hero() {
             <Link
               to="/contact"
               id="btn-hero-ignite"
-              name="Ignite Your Project"
+              name="Start Your Project"
               className="btn-primary gtm-cta text-sm sm:text-base"
               data-gtm-category="CTA"
               data-gtm-action="Click"
-              data-gtm-label="Hero — Ignite Your Project"
+              data-gtm-label="Hero — Start Your Project"
             >
-              Ignite Your Project →
+              Get Started Now →
             </Link>
             <Link
               to="/process"
@@ -133,7 +133,7 @@ function Hero() {
               data-gtm-action="Click"
               data-gtm-label="Hero — See Our Proven Process"
             >
-              See Our Proven Process
+              Explore Our Methodology
             </Link>
           </div>
           <div className={`mt-10 flex flex-wrap items-center gap-x-8 gap-y-4 anim-fade-in delay-400 ${inView ? "in-view" : ""}`}>
@@ -223,13 +223,13 @@ function ProblemSolution() {
         <Link
           to="/contact"
           id="btn-problem-transform"
-          name="Transform Your Digital Future"
+          name="Get a Free Consultation"
           className="btn-primary gtm-cta mt-8 inline-flex text-sm sm:text-base"
           data-gtm-category="CTA"
           data-gtm-action="Click"
-          data-gtm-label="Problem Section — Transform"
+          data-gtm-label="Problem Section — Consultation"
         >
-          Transform Your Digital Future →
+          Get a Free Consultation →
         </Link>
       </div>
     </section>
@@ -288,7 +288,7 @@ function ServicesSection() {
         </div>
         <div className="mt-10 text-center">
           <Link
-            to="/services"
+            to="/contact"
             id="btn-services-talk-strategist"
             name="Talk to a Strategist Now"
             className="btn-primary gtm-cta text-sm sm:text-base"
@@ -296,7 +296,7 @@ function ServicesSection() {
             data-gtm-action="Click"
             data-gtm-label="Services Section — Talk to a Strategist"
           >
-            Talk to a Strategist Now →
+            Book a Free Strategy Call →
           </Link>
         </div>
       </div>
@@ -338,15 +338,15 @@ function ProcessSection() {
         </ol>
         <div className="mt-8 sm:mt-12 text-center">
           <Link
-            to="/process"
+            to="/contact"
             id="btn-process-start-transformation"
-            name="Start Your Transformation Today"
+            name="Work With Us Today"
             className="btn-outline gtm-cta text-sm sm:text-base"
             data-gtm-category="CTA"
             data-gtm-action="Click"
-            data-gtm-label="Process Section — Start Transformation"
+            data-gtm-label="Process Section — Work With Us"
           >
-            Start Your Transformation Today →
+            Work With Us Today →
           </Link>
         </div>
       </div>
@@ -378,7 +378,7 @@ function CaseStudies() {
             data-gtm-action="Click"
             data-gtm-label="Case Studies Section — All Projects"
           >
-            All Projects →
+            Browse Our Case Studies →
           </Link>
         </div>
         <div className="mt-8 sm:mt-12 grid gap-5 sm:grid-cols-3">
@@ -405,7 +405,7 @@ function CaseStudies() {
                     data-gtm-action="Click"
                     data-gtm-label={c.brand}
                   >
-                    View Case Study →
+                    Read the Success Story →
                   </Link>
                 </div>
               </div>
@@ -422,7 +422,7 @@ function CaseStudies() {
             data-gtm-action="Click"
             data-gtm-label="Case Studies Section — See All"
           >
-            See All Our Impactful Projects →
+            Examine Our Complete Portfolio →
           </Link>
         </div>
       </div>
@@ -515,7 +515,7 @@ function FaqSection() {
             data-gtm-action="Click"
             data-gtm-label="FAQ — Ask Us Directly"
           >
-            Still Curious? Ask Us Directly →
+            Have Questions? Reach Out Now →
           </Link>
         </p>
       </div>

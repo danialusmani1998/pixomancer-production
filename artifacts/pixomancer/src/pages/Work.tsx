@@ -221,17 +221,17 @@ export default function WorkPage() {
           <p className="mx-auto mt-5 max-w-2xl text-base text-charcoal sm:text-lg leading-relaxed">
             Real challenges. Real solutions. Unmistakable results. Case studies that define success across 12+ industries worldwide.
           </p>
-          <button
-            onClick={() => document.getElementById("case-grid")?.scrollIntoView({ behavior: "smooth" })}
-            id="btn-work-start-story"
-            name="Start Your Success Story"
-            className="btn-primary gtm-cta mt-8 inline-flex text-sm sm:text-base"
-            data-gtm-category="CTA"
-            data-gtm-action="Click"
-            data-gtm-label="Work Hero — Start Your Story"
-          >
-            Start Your Success Story →
-          </button>
+            <button
+              onClick={() => document.getElementById("case-grid")?.scrollIntoView({ behavior: "smooth" })}
+              id="btn-work-start-story"
+              name="View Our Work"
+              className="btn-primary gtm-cta mt-8 inline-flex text-sm sm:text-base"
+              data-gtm-category="CTA"
+              data-gtm-action="Click"
+              data-gtm-label="Work Hero — View Work"
+            >
+              View Our Work →
+            </button>
         </div>
       </section>
 
@@ -337,8 +337,8 @@ export default function WorkPage() {
 
       <FinalCta
         title="Your Project Belongs Here."
-        cta="Start a Project with Us"
-        sub="Let's craft your next success story. No pitch decks, no sales bots."
+        cta="Start Your Project Today"
+        sub="Let's build your next success story. No sales bots, just results."
       />
     </main>
   );
@@ -381,7 +381,7 @@ function CaseCard({ cs, index, onSelect }: { cs: CaseStudy; index: number; onSel
             data-gtm-action="Click"
             data-gtm-label={cs.client}
           >
-            View Full Case Study →
+            View Full Success Story →
           </button>
         </div>
       </div>

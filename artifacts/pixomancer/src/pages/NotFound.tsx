@@ -12,7 +12,7 @@ export default function NotFound() {
         </p>
         <div className="mt-8">
           <Link to="/" className="btn-primary">
-            Go home →
+            Return to Hub →
           </Link>
         </div>
       </div>

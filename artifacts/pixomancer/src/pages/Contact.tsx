@@ -43,33 +43,24 @@ export default function ContactPage() {
             <Web3Form formId="contact-main-form" source="contact_page_main" />
           </div>
 
-          <aside className="md:col-span-2 space-y-4" aria-label="Contact details">
-            <div className="bg-slate-deep p-7 sm:p-8 text-white">
-              <p className="text-xs font-bold uppercase tracking-widest text-teal">Skip the Form?</p>
-              <h3 className="mt-2 font-display text-xl font-bold">Ready for a Strategic Conversation?</h3>
-              <p className="mt-3 text-cloud/80 text-sm leading-relaxed">
-                Book a free, no-obligation strategy call to discuss your goals and explore how Pixomancer can help you achieve them.
+          <aside className="md:col-span-2 space-y-6" aria-label="Contact details">
+            <div className="bg-slate-deep p-8 sm:p-10 text-white flex flex-col justify-center border-l-4 border-teal shadow-sm">
+              <p className="text-xs font-bold uppercase tracking-widest text-teal">STOP SETTLING FOR AVERAGE</p>
+              <h3 className="mt-4 font-display text-2xl font-bold leading-tight">
+                Partner with Digital Alchemists to Engineer Your <span className="text-teal">Dominance.</span>
+              </h3>
+              <p className="mt-4 text-cloud/70 text-sm leading-relaxed">
+                You're not just hiring an agency. You're commissioning a team dedicated to transforming your most ambitious visions into unstoppable digital realities.
               </p>
-              <a
-                href="/contact"
-                id="btn-contact-book-call"
-                name="Book Your Strategy Call Now"
-                className="btn-primary gtm-cta mt-6 inline-flex w-full justify-center text-sm"
-                data-gtm-category="CTA"
-                data-gtm-action="Click"
-                data-gtm-label="Contact Page — Book Strategy Call"
-              >
-                Book Your Strategy Call Now →
-              </a>
             </div>
 
-            <div className="border border-cloud p-5 sm:p-6 hover:border-teal transition-colors" itemScope itemType="https://schema.org/Organization">
+            <div className="border border-cloud p-6 sm:p-8 hover:border-teal transition-all group shadow-sm bg-white" itemScope itemType="https://schema.org/Organization">
               <div className="text-xs font-bold uppercase tracking-widest text-teal">Prefer to Connect Directly?</div>
               <a
                 href={`mailto:${EMAIL}`}
                 id="btn-contact-email"
                 name="Contact Email"
-                className="gtm-contact mt-2 block font-display text-lg font-bold text-slate-deep hover:text-teal transition-colors"
+                className="gtm-contact mt-3 block font-display text-xl font-bold text-slate-deep group-hover:text-teal transition-colors"
                 itemProp="email"
                 data-gtm-category="Contact"
                 data-gtm-action="Email Click"
@@ -77,19 +68,22 @@ export default function ContactPage() {
               >
                 {EMAIL}
               </a>
+              <p className="mt-2 text-xs text-charcoal/60 italic">We respond to all direct emails within 24 hours.</p>
             </div>
 
-            <div className="border border-cloud p-5 sm:p-6 hover:border-teal transition-colors">
-              <div className="text-xs font-bold uppercase tracking-widest text-teal">Response Time</div>
-              <p className="mt-2 text-sm text-charcoal leading-relaxed">
-                Within 1 business day.<br />
-                A senior strategist — not a sales bot — will review your brief personally.
+            <div className="border border-cloud p-6 sm:p-8 hover:border-teal transition-all shadow-sm bg-white">
+              <div className="text-xs font-bold uppercase tracking-widest text-teal">Response Protocol</div>
+              <p className="mt-3 text-sm text-charcoal leading-relaxed font-medium">
+                Within 1 business day.
+              </p>
+              <p className="mt-1 text-sm text-charcoal/80 leading-relaxed">
+                A senior strategist — not a sales bot — will review your brief personally and provide actionable feedback.
               </p>
             </div>
 
-            <div className="border border-cloud p-5 sm:p-6 hover:border-teal transition-colors">
+            <div className="border border-cloud p-6 sm:p-8 hover:border-teal transition-all shadow-sm bg-white">
               <div className="text-xs font-bold uppercase tracking-widest text-teal">Follow Our Journey</div>
-              <div className="mt-3 flex flex-wrap gap-2">
+              <div className="mt-4 flex flex-wrap gap-2">
                 {socials.map((s) => (
                   <a
                     key={s.id}
@@ -98,7 +92,7 @@ export default function ContactPage() {
                     name={s.label}
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="gtm-social inline-flex items-center gap-1.5 border border-cloud px-3 py-2 text-xs font-bold text-charcoal hover:border-teal hover:text-teal transition-colors"
+                    className="gtm-social inline-flex items-center gap-1.5 border border-cloud px-4 py-2.5 text-xs font-bold text-charcoal hover:border-teal hover:text-teal hover:bg-teal/5 transition-all"
                     data-gtm-category="Social"
                     data-gtm-action="Click"
                     data-gtm-label={s.label}

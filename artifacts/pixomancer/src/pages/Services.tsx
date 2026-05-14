@@ -12,7 +12,7 @@ const pillars = [
     headline: "Scalable, High-Performance Digital Infrastructure.",
     desc: "We architect and build websites, applications, and SaaS platforms that don't just function — they outperform. Our solutions are fast-loading, secure, and meticulously crafted to scale with your most ambitious visions.",
     tags: ["Website Development", "Custom App Development", "SaaS Platform Engineering", "Enterprise Software"],
-    cta: "Discover Engineering",
+    cta: "View Technical Solutions",
     ctaId: "btn-service-web-dev",
   },
   {
@@ -22,7 +22,7 @@ const pillars = [
     headline: "Interfaces Engineered Around Human Behavior.",
     desc: "We design intuitive, engaging, and conversion-led experiences that feel inevitable. Our UI/UX strategies reduce friction, enhance satisfaction, and transform visitors into loyal customers — all grounded in behavioral data.",
     tags: ["User Interface Design", "User Experience Strategy", "Website Design", "Mobile App UI/UX", "Prototyping"],
-    cta: "Explore Design",
+    cta: "See Visual Strategies",
     ctaId: "btn-service-ui-ux",
   },
   {
@@ -32,7 +32,7 @@ const pillars = [
     headline: "Data-Driven Growth from Awareness to Conversion.",
     desc: "From the initial spark of awareness to the final conversion and beyond, we engineer end-to-end growth motions. Our strategies compound traffic, leads, and revenue across every channel that matters.",
     tags: ["SEO", "Google Ads", "Meta Ads", "TikTok Ads", "Email Automation", "Content Marketing", "CRO"],
-    cta: "Amplify Your Reach",
+    cta: "Grow Your Audience",
     ctaId: "btn-service-marketing",
   },
   {
@@ -42,7 +42,7 @@ const pillars = [
     headline: "High-Conversion Storefronts That Maximize AOV.",
     desc: "We architect scalable e-commerce experiences designed to maximize Average Order Value and virtually eliminate cart abandonment. Sub-second load times, frictionless checkouts, smart upsells, and conversion-tuned UX.",
     tags: ["Shopify Development", "WooCommerce", "Headless Commerce", "Magento", "BigCommerce", "Webflow"],
-    cta: "Boost Your Sales",
+    cta: "Optimize Your Store",
     ctaId: "btn-service-ecommerce",
   },
   {
@@ -52,7 +52,7 @@ const pillars = [
     headline: "Magnetic Corporate Identities That Command Attention.",
     desc: "Crafting comprehensive brand operating systems that command instant recognition. Logo systems, color palettes, typography, and brand guidelines ensuring a cohesive and compelling presence across every touchpoint.",
     tags: ["Corporate Branding", "Graphic Design", "Logo Design", "Brand Strategy", "Visual Identity Systems"],
-    cta: "Define Your Brand",
+    cta: "Shape Your Identity",
     ctaId: "btn-service-branding",
   },
   {
@@ -62,7 +62,7 @@ const pillars = [
     headline: "Words That Don't Just Inform — They Convert.",
     desc: "Our elite content establishes industry dominance, builds trust, and drives action. From persuasive sales pages to insightful ebooks and founder-led LinkedIn thought leadership, we craft narratives that compel.",
     tags: ["Sales Copywriting", "Website Content", "Ebook Creation", "LinkedIn Branding", "Email Copy"],
-    cta: "Command Attention",
+    cta: "Perfect Your Narrative",
     ctaId: "btn-service-copy",
   },
   {
@@ -72,7 +72,7 @@ const pillars = [
     headline: "Transform Complex Ideas into Captivating Visual Stories.",
     desc: "Our dynamic 2D videos, motion graphics, and expert video editing simplify messages and capture shrinking attention spans. All in-house — from script and storyboard to final render.",
     tags: ["2D Animation", "Explainer Videos", "Video Editing", "Motion Graphics", "Storyboarding"],
-    cta: "Animate Your Story",
+    cta: "Visualize Your Message",
     ctaId: "btn-service-video",
   },
   {
@@ -82,7 +82,7 @@ const pillars = [
     headline: "Future-Proof Your Operations with Intelligent Automation.",
     desc: "We design and implement custom chatbots, agentic workflows, and seamless integrations that work tirelessly behind the scenes — automating leads, streamlining processes, and saving countless manual hours.",
     tags: ["AI Chatbot Development", "Workflow Automation", "System Integrations", "Custom AI Solutions"],
-    cta: "Automate Your Edge",
+    cta: "Integrate Smart Workflows",
     ctaId: "btn-service-ai",
   },
 ];
@@ -118,7 +118,7 @@ export default function ServicesPage() {
             <span className="h-px w-6 bg-teal" /> Services <span className="h-px w-6 bg-teal" />
           </p>
           <h1 className="mt-4 font-display text-4xl font-bold leading-tight text-slate-deep sm:text-5xl md:text-6xl lg:text-7xl">
-            Unlocking Your{" "}
+            Engineer Your{" "}
             <span className="text-teal">Digital Advantage.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-base text-charcoal sm:text-lg leading-relaxed">
@@ -133,7 +133,7 @@ export default function ServicesPage() {
             data-gtm-action="Click"
             data-gtm-label="Services Hero — Book Strategy Call"
           >
-            Book a Strategy Call →
+            Get a Free Quote Now →
           </Link>
         </div>
       </section>
@@ -180,7 +180,7 @@ export default function ServicesPage() {
             data-gtm-action="Click"
             data-gtm-label="Services — Build Custom Stack"
           >
-            Build My Custom Stack →
+            Start Building Your Solution →
           </Link>
         </div>
       </section>
@@ -216,9 +216,9 @@ export default function ServicesPage() {
       </section>
 
       <FinalCta
-        title="Ready to Engineer Your Digital Dominance?"
-        cta="Book Your Free Strategy Call"
-        sub="No pitch decks. No sales bots. Just a real conversation with a senior strategist."
+        title="Ready to Build Your Digital Presence?"
+        cta="Start Your Project Today"
+        sub="Connect with a senior strategist. No sales bots. Just results."
       />
     </main>
   );

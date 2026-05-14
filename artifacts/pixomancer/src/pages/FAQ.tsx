@@ -121,7 +121,7 @@ export default function FAQPage() {
               data-gtm-action="Click"
               data-gtm-label="FAQ — Ask Us Directly"
             >
-              Still Curious? Ask Us Directly →
+              Unresolved? Query Us Directly →
             </Link>
           </div>
         </div>
@@ -129,7 +129,7 @@ export default function FAQPage() {
 
       <FinalCta
         title="Ready to Start Your Digital Transformation?"
-        cta="Book Your Free Strategy Call"
+        cta="Schedule Your Growth Strategy"
         sub="No pitch decks. No sales sequences. Just a real strategist ready to help."
       />
 

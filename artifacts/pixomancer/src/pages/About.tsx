@@ -62,15 +62,15 @@ export default function AboutPage() {
               We are Pixomancer — an elite digital creative and technology studio. We are a collective of pixel sorcerers, strategic thinkers, and engineering maestros dedicated to transforming ambitious visions into undeniable digital realities. Where creative vision meets engineering precision.
             </p>
             <Link
-              to="/contact"
+              to="/services"
               id="btn-about-hero-meet"
-              name="Meet Our Visionaries"
+              name="View Our Services"
               className="btn-primary gtm-cta mt-8 inline-flex text-sm sm:text-base"
               data-gtm-category="CTA"
               data-gtm-action="Click"
-              data-gtm-label="About Hero — Meet Our Visionaries"
+              data-gtm-label="About Hero — View Services"
             >
-              Meet Our Visionaries →
+              View Our Services →
             </Link>
           </div>
         </div>
@@ -206,9 +206,9 @@ export default function AboutPage() {
       </section>
 
       <FinalCta
-        title="Ready to Build Something Inevitable?"
-        cta="Book Your Free Strategy Call"
-        sub="No pitch decks. No sales bots. A senior strategist, in your corner."
+        title="Ready to Build Your Digital Future?"
+        cta="Start Your Project Today"
+        sub="No sales bots. A senior strategist, in your corner."
       />
     </main>
   );
